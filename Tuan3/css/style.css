@@ -1,0 +1,201 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-right: 150px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+header .menu a {
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+header .function {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+header .function i {
+    position: absolute;
+    padding: 10px;
+}
+
+header .function img {
+    justify-content: center;
+}
+  
+header .input-field {
+    width: 100%;
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.theme .text {
+    margin-left: 140px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.product-container{
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+.product-container .producttitle {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.product-container .producttitle a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 40px;
+}
+
+.product-container .producttitle a:hover {
+    color: white;
+    background-color: green;
+}
+
+.product-container .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.product-container .products #sanpham h4{
+    position: absolute;
+    margin-left: 190px;
+    color: brown;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 35%;
+}
+
+.product-container .products #sanpham .order .price h3{
+    color: gray;
+}
+
+.order .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.order {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: gray;
+}
+
+.pages a {
+    text-decoration: none;
+    color : black
+}
+
+.pages a:hover{
+    color: rgb(40, 134, 40);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(38, 38, 53);
+    color: white;
+}
+
+footer .ahc {
+    display: flex;
+    gap: 100px;
+    margin-top: 75px;
+    margin-left: 150px;
+    
+}
+
+footer .ahc h4{
+    color: gray;
+}
+
+footer .promotions {
+    margin-top: 75px;
+    margin-right: 150px;    
+    margin-bottom: 75px;
+}
+footer .ahc select{
+    padding: 10px;
+    border-radius: 10%;
+    background: rgb(38, 38, 53);
+    color: white;
+    border-color: white;
+}
+
+footer .promotions div{
+    display: flex;
+}
+
+footer .promotions i {
+    position: absolute;
+    padding: 10px;
+    padding-left: 20px;
+    color: black;
+}
+  
+footer .input-field {
+    width: 100%;
+    padding: 10px;
+    padding-right: 30px;
+    text-align: left;
+    margin-bottom: 3px;
+    border-radius: 10%;
+    background: rgb(38, 38, 53);
+}
+
+footer button {
+    background-color: rgb(41, 141, 41);
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 10px 20px;
+}
+
+footer .promotions .contacticon {
+    margin-top: 20px;
+    gap: 10px;
+}
+
+footer .promotions .copyright {
+    align-items: center;
+    gap: 10px;
+    color: gray;
+}
+
+footer .promotions .copyright a{
+    text-decoration: none;
+    color: gray;
+}
+
+.pot {
+    width: 4px;
+    height: 4px;
+    background-color: gray;
+    border-radius: 50%;
+}
